@@ -2,7 +2,7 @@
 
 ## Overview
 
-YLM is a comprehensive service application for users to view, edit, and schedule yard care, general labor, and other services with "Yards, Labor & More" based in Monte Vista. This repository contains the code for the initial web application, which is designed to be easily transitioned to native applications for iOS, Android, Windows, MacOS, and Linux.
+YLM is a comprehensive service application for users to view, edit, and schedule yard care, general labor, and other services with "Yards, Labor & More" based in Monte Vista. This repository contains the code for the initial web application, which is designed to be easily transitioned to native applications for iOS, Android, Windows, macOS, and Linux.
 
 ## Features
 
@@ -16,12 +16,12 @@ YLM is a comprehensive service application for users to view, edit, and schedule
 
 ## Technologies Used
 
-- Frontend: React.js, CSS Grid, Flexbox
-- Backend: Node.js, Express.js
-- Database: PostgreSQL
-- Payment Gateway: Stripe
-- Deployment: Vercel
-- Native App Transition: React Native
+- **Frontend**: Next.js, React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: PostgreSQL
+- **Payment Gateway**: Stripe
+- **Deployment**: Vercel
+- **Native App Transition**: React Native
 
 ## Getting Started
 
@@ -35,5 +35,29 @@ YLM is a comprehensive service application for users to view, edit, and schedule
 
 1. Clone the repository:
 
-   ```sh
-   git clone https://github.com/your-username/ylm.git
+   git clone <https://github.com/realbrodiwhite/ylm.git>
+   cd ylm
+
+### Set up the backend
+
+cd backend
+npm install
+
+### Set up the frontend
+
+cd frontend
+npm install
+
+### Running the Application
+
+### Start the backend server
+
+cd backend
+npm start
+
+### Start the frontend development server
+
+cd frontend
+npm run dev
+
+Open your browser and navigate to <http://localhost:3000>.
